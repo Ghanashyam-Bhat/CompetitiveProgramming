@@ -1,0 +1,4 @@
+-Since the speed of the tortoise is constant, and time is a unique value, distance can be calculated by multiplying.
+-Since time and speed of rabbit is shuffled, those need to be sorted
+-After sorting multipy the corresponding terms to calculate minimum and maximum distances covered by rabbit
+-Then use condition to print the required output

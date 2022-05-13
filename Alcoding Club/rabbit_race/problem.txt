@@ -1,0 +1,34 @@
+Inorder to check the truth in a childhood story "Tortois vs Rabbit Race", 2 trainers trained their respective pets. The tortoise owner noticed that, just like the story the tortoise was moving in a constant speed of 15m/s from the start point to the end point. The rabbit was moving in the variable speed for different intervals of time.
+Your job is to determine if the tortoise wins the race or the rabbit based on the data provided by the owners.The problem here is, the rabbit owner messed up the data and now he doesn't know what time interval corresponds to what speed.Based on the given data your have to tell if the story is true or it may be false.
+Input format
+- Number of test cases
+- m, n (m-Time taken by the tortoise to complete the race, n-Number of chuncks of time intervals/speeds of rabbit
+- n chuncks of Speed
+- n chuncks of time
+1<=z<=500
+1<=m<=100
+1<=n<=100
+0<=s<=30
+0<=t<=100
+
+Output format
+- Print True if if Rabbit can never win and the story is always true
+- Print False if Rabbit has chances to win
+	If False
+		print 1 if Rabbit always wins
+		print 2 incase of mixed results
+
+Sample Input
+1
+10 5
+0 0 5 18 4
+6 3 4 1 2
+
+Sample Output
+True
+
+Explaination for Sample input
+- Line 1 indicates number of test cases, so here there is only 1 test case
+- Time taken by the Tortoise is 10 m/s and there are 5 chuncks of time intervals for movement of rabbit
+- After calculations we can conclude that the story was true
+- Since output is true, there is no need for 2nd line of output

@@ -1,0 +1,9 @@
+ID:TRRS2
+TITLE:The Rabbit Race
+DIFFICULTY:easy
+TEST_GENERATOR:false
+SOLUTION _LANG:py
+TAGS:stack,queue,priority_queue,sorting,math,brute_force
+AUTHOR:Ghanashyam Bhat
+DIRECTORY_NAME:rabbit_race
+USED:false

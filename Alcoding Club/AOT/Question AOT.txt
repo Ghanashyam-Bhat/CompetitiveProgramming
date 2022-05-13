@@ -1,0 +1,39 @@
+Attack on Titan
+Trained survey corps are assigned to kill the Titans during their expedition. Titans are to be killed with their 3 Dimentional manuer device. Titans have huge body, hence their defence power is greater than individual attack power of humun beings. So during each attack, survey corps has requested you to assign group of soldiers to each titan so that they can slay all the titans with minimum damage if it is possible to defeat those titans and also report damage. If it is not possible you should ask them to retrete.
+The conditions are as follows - 
+1. The sum of attack power of group should be strictly greater than the defence power of the Titan
+2.Since it is a matter of one chance attack, if defence power of Titan is greater than the attack power of group, the entire group will be killed by the titan.
+3.No titans should be left unchecked, i.e each titan must be engaged with atleast one soldier.
+
+Input
+1.Number of test cases
+2.n m   [n-Number of titans, m- Number of survey corps members]
+3.Defence power of titans(n terms)
+4.Attack power survey corps members(m terms)
+
+Output
+If it is possible to defeat the titans
+-Print YES
+-No. of casualties
+
+If it is impossible to defeat, print "NO"
+
+Sample input
+1
+3 10
+20 15 12 
+5 6 7 3 2 5 5 7 2 6
+
+Sample Output
+YES
+1
+
+Explaination for Sample input
+- 3 Titans should be countered with 10 soldiers.
+- Titan with defense 20 is attacked by soldiers 7 7 5 2 (=21>20)
+-Titan with defense 15 can be attacked with soldiers 6 6 5(=17>15)
+-Titan with defense 12 should be attacked with only 1 soldier because to ensure minimum loss of soldiers
+	(Even by sending all remaining soldiers, the cumulative attack power will be less than defense power of Titan. Hence all the soldiers will get killed)
+-The first two titans will be eleminated. Third Titan kills 1 soldier
+-Then the third Titan can be killed in step 2 with any combination of soldiers with attack power greater than 12
+-Hence Total loss of soldier is 1(Attack power 2)
